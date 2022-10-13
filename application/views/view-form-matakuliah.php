@@ -22,6 +22,7 @@ method="post">
  <th>:</th>
  <td>
  <input type="text" name="kode" id="kode">
+ <?php echo form_error("kode")?>
  </td>
  </tr>
  <tr>
@@ -29,6 +30,7 @@ method="post">
  <td>:</td>
  <td>
  <input type="text" name="nama" id="nama">
+ <?php echo form_error("nama")?>
  </td>
  </tr>
  <tr>
